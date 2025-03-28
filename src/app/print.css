@@ -1,0 +1,20 @@
+@media print {
+    body {
+      background-color: white !important;
+    }
+    
+    .bg-gray-50 {
+      background-color: white !important;
+      padding: 0 !important;
+    }
+    
+    .print-hidden,
+    .print\:hidden {
+      display: none !important;
+    }
+    
+    @page {
+      size: A4;
+      margin: 1cm;
+    }
+  }
